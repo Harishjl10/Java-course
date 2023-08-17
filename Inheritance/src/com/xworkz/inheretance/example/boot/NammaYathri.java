@@ -1,8 +1,10 @@
 package com.xworkz.inheretance.example.boot;
 
+import com.xworkz.inheretance.example.app.whatapp.Yathri;
+
 public class NammaYathri {
 		public static void main(String[] args) {
-			Yatri yatri = new Yatri();
+			Yathri yatri = new Yathri();
 			yatri.setFounder("Vimal Kumar");
 			System.out.println(yatri.getFounder());
 
